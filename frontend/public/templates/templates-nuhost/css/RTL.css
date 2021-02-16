@@ -1,0 +1,714 @@
+/*------------------------------------------------------------------
+ * template Name: Nuhost - Multipurpose Hosting HTML & WHMCS Template
+ * Author: coodiv (nedjai mohamed)
+ * Author URI: https://coodiv.net/
+ * Author URI: https://themeforest.net/user/coodiv
+ * Description: A Bootstrap Responsive Domain & Web Hosting Template + WHMCS template
+ * Version: 1.0.0
+ * Bootstrap v4.1.1 (http://getbootstrap.com)
+ * Copyright 2018 coodiv.
+ -------------------------------------------------------------------*/
+
+ 
+ 
+@import url('https://fonts.googleapis.com/css?family=Cairo:300,400,700');
+ 
+
+ body, button, input, select, textarea, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+@media (min-width: 768px){
+.navbar-right {
+    float: left!important;
+    margin-right: 0;
+}
+
+.account-place-header-nav li {
+    margin-top: 3px;
+}
+
+
+}
+@media (max-width: 768px){
+.padding-80-100-100 {
+    padding: 80px 0 !important;
+}
+
+.form-domain-home-stwo {
+    width: 100%;
+}
+
+.domain-price-homepage {
+    display: none;
+}
+
+#monthly-yearly-chenge {
+    width: auto;
+}
+
+.carousel-main-services img {
+    display: none;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0
+}
+
+}
+
+@media (max-width: 991px){
+.account-place-header-nav {
+    float: left !important;
+}
+}
+
+#header .navbar .navbar-nav>li>a {
+    font-size: 12.5px;
+    font-weight: 500;
+}
+
+#header .navbar-brand span {
+    font-size: 11px;
+}
+
+
+.header-top-menu ul li a i {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+.header-top-menu ul li a, .header-top-menu ul li a:not([href]):not([tabindex]) {
+    font-size: 11px;
+}
+
+#pitursrach-header button {
+    right: auto;
+    left: 40px;
+}
+
+.closesrch-her-block {
+    left: 10px;
+    right: auto;
+}
+
+#pitursrach-header input {
+    letter-spacing: 0;
+}
+
+@media (min-width: 768px) {
+.navbar-right .dropdown-menu {
+    left: 0 !important;
+    right: auto !important;
+}
+}
+
+.login-drop-down-header:after {
+    left: 3px;
+    right: auto;
+}
+
+.login-drop-down-header form .form-group .form-control {
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.login-drop-down-header form button {
+    letter-spacing: 0;
+}
+
+.header-heeadline p {
+    font-size: 14px;
+}
+
+.header-heeadline h5 {
+    font-size: 25px;
+}
+
+#header #domain-search #transfer-btn {
+    right: auto;
+    left: 55px;
+}
+
+#header #domain-search #search-btn {
+    right: auto;
+    left: 2px;
+}
+
+#header #domain-search .space-men {
+    right: 25px;
+    left: auto;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.first-items-home .nomber-overlow {
+    left: -35px;
+    right: auto;
+}
+
+.first-items-home .item-icons:hover .nomber-overlow {
+    right: auto;
+    left: -35px;
+}
+
+@-webkit-keyframes bblhover {
+	10% {
+	top: -36px;
+	right: auto;
+	left: -35px;
+	}
+	
+	50% {
+	top: -30px;
+	right: auto;
+	left: -29px;
+	}
+
+
+	100% {
+	top: -36px;
+	right: auto;
+	left: -35px;
+	}
+}
+
+
+.first-items-home .item-icons i.icon:after {
+    right: -6px;
+    left: auto;
+}
+
+.first-items-home .item-icons h5 {
+    font-size: 15px;
+}
+
+
+.first-items-home .item-icons p {
+    font-family: 'Cairo', sans-serif !important;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+#header .header-animation .support-header-ring span {
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.first-items-home .free-badje {
+    right: -5px;
+    left: auto;
+	font-family: 'Cairo', sans-serif !important;
+}
+
+
+.first-items-home .item-icons:hover .free-badje {
+    left: auto;
+    right: -1px;
+}
+
+.first-items-home .item-icons .badje-link-footer a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    padding: 6px 25px;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+
+
+.first-items-home .item-icons .badje-link-footer a i {
+    margin-left: 0;
+    margin-right: 5px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.first-items-home .free-badje:after {
+    right: auto;
+    left: -15px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.first-items-home .item-icons:last-child {
+    border-radius: 10px 0 0 0;
+    border-left: 1px solid #edf4fb;
+}
+.first-items-home .item-icons:first-child {
+    border-radius: 0 10px 0 0;
+}
+
+.first-items-home .item-icons {
+    border-right: 1px solid #edf4fb;
+    border-left: 0;
+}
+
+.tittle-simple-one h5 span {
+    font-size: 16px;
+}
+
+#monthly-yearly-chenge a:last-child {
+    padding-left: 30px;
+    float: right;
+}
+
+
+#monthly-yearly-chenge a {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.plan-contact-support-button a i {
+    margin-left: 5px;
+}
+
+.tree-steps-hosting-plans-price {
+    right: auto !important;
+    left: 0;
+}
+
+.tree-steps-hosting-plans-icon {
+    float: right !important;
+    margin-left: 14px;
+    margin-right: 0 !important;
+    margin-top: 10px;
+}
+
+.price-table-container .tree-steps-hosting-plans-icon{
+    margin-top: 5px;	
+}
+
+
+.tree-steps-hosting-plans-price small {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.tree-steps-hosting-plans-title {
+    font-size: 20px;
+}
+
+.tree-steps-hosting-plans-title small {
+    font-size: 14px;
+}
+
+.tree-steps-hosting-plans-list li {
+    font-size: 12px;
+}
+
+.tree-steps-hosting-plans-list li.checked:after ,.tree-steps-hosting-plans-list li.not-checked:after {
+    margin-left: 10px;
+}
+
+.tree-steps-hosting-plans-footer-btn .first-step-hosting-text i {
+    right: -117px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.tree-steps-hosting-plans-footer-btn .first-step-hosting-text small {
+    font-family: 'Cairo', sans-serif !important;
+    letter-spacing: 0;
+    font-weight: 500 !important;
+    left: -6px ;
+}
+
+
+
+.tree-steps-hosting-plans-footer-btn-back {
+    right: auto ;
+    left: 15px ;
+}
+
+.tree-steps-hosting-plans-footer-btn:hover .first-step-hosting-text i {
+	right: -34px ;
+}
+
+
+.tree-steps-hosting-plans-payment-title {
+    font-size: 19px;
+}
+
+.tree-steps-hosting-plans-payment-title small {
+    font-size: 13px;
+}
+
+.tree-steps-hosting-plans-login-form label {
+    font-size: 13px;
+}
+
+.tree-steps-hosting-plans-login-form input {
+    margin-bottom: 16px;
+    font-size: 12px;
+}
+
+.custom-radio label::before, .custom-checkbox label::before {
+    left: auto;
+    right: 0;
+}
+.custom-control-label small {
+    padding-right: 25px;
+}
+.custom-checkbox input:checked + label::after {
+    right: 1px;
+    left: auto;
+}
+
+.custom-radio, .custom-checkbox {
+    float: right;
+}
+
+.btn-login-inscrespto {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.tree-steps-hosting-plans-footer-btn {
+    font-family: 'Cairo', sans-serif !important;
+    letter-spacing: 0;
+	font-weight: 500;
+}
+
+.tree-steps-hosting-plans-best {
+    letter-spacing: 0;
+    font-size: 13px;
+}
+
+.custom-radio input:checked + label::after, .custom-checkbox input:checked + label::after {
+    left: auto;
+    right: 2px;
+}
+
+.custom-radio label, .custom-checkbox label {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.video-section-play-place a .first-text,.video-section-play-place a .second-text  {
+    left: 0;
+	right: auto;
+}
+
+.video-section-play-place a i {
+    float: right;
+	-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.video-section-text-place h5 {
+    font-size: 21px;
+    margin-bottom: 16px;
+}
+
+.video-section-text-place .post-category {
+    float: right;
+}
+
+.video-section-text-place .post-date {
+    float: none;
+    padding-right: 11px;
+}
+
+.video-section-text-place p {
+    font-family: 'Cairo', sans-serif !important;
+    margin-bottom: 24px;
+}
+
+.video-section-text-place a {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+
+#oursevices li a .title-tabs-of {
+    padding: 3px 17px;
+    font-family: 'Cairo', sans-serif !important;
+    font-weight: 500;
+}
+.text-tab-content-algo .text-absoo h5 {
+    font-size: 22px;
+    letter-spacing: 0 !important;
+}
+
+.text-tab-content-algo .text-absoo p {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.text-tab-content-algo .text-absoo a {
+    font-size: 14px;
+    font-family: 'Cairo', sans-serif !important;
+    letter-spacing: 0;
+}
+
+.form-domain-home-stwo .input-group-prepend {
+    right: 23px;
+    left: auto;
+	font-size: 12px;
+}
+
+
+#header .top-header-fixed .navbar .accouting-h {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.tittle-simple-one h5 {
+    font-size: 24px;
+}
+
+.domain-homepage-anouncement-box .domain-homepage-anouncement-box-img:after {
+    left: auto;
+    right: 4px;
+}
+
+
+.domain-homepage-anouncement-sub-title {
+    font-size: 14px;
+    letter-spacing: 0;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.btn-domain-check {
+    letter-spacing: 0;
+}
+
+.domain-homepage-anouncement-box h5 {
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 0;
+	letter-spacing: 0;
+}
+
+.domain-homepage-anouncement-box p {
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.domain-homepage-anouncement-speacial .domain-tci-order {
+    left: 0;
+    right: auto;
+    letter-spacing: 0;
+    border-radius: 6px 16px 16px 6px;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.domain-tci-buttons {
+    right: auto;
+    left: 0;
+}
+
+.domain-homepage-anouncement-speacial-form {
+    border-radius: 15px 0 0 15px;
+}
+
+.domain-homepage-anouncement-speacial-form {
+    left: 0;
+}
+
+.domain-homepage-anouncement-speacial-form.in {
+    border-right: 0;
+    left: 0;
+    border-left: 2px solid #dae2e6;
+}
+
+.domain-tci.in {
+    margin-right: 56%;
+    margin-left: auto;
+}
+
+.domain-tci-added-to-card-mesage {
+    letter-spacing: 0;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.counter-section .counter-middle-icon .icon-counter-sid-title {
+    font-size: 15px;
+    margin-top: -4px;
+}
+
+.counter-section .counter-middle-icon .icon-counter-sid-title b {
+    font-size: 19px;
+    margin-top: -5px;
+    letter-spacing: 0;
+}
+
+.counter-number-tibo b {
+    font-weight: 100;
+    font-size: 14px;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.text-reve-map-place p span {
+    font-size: 13px;
+    margin-bottom: 6px;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.text-reve-map-place p {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.help-center-header .help-center-title span {
+    padding-right: 12px;
+    margin-bottom: 20px;
+}
+
+.announcement-single .title-announcement-single {
+    float: right;
+    margin-top: 4px;
+}
+
+.home-blog-te .post-bodyn p i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.footer-contact-a-hm i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.form-contain-home-subscribe button {
+    left: 13px;
+    right: auto;
+}
+section#footer .back-to-top {
+    float: left;
+}
+
+
+.footer-title-simple {
+    font-size: 16px;
+}
+
+.main-menu-footer-mn li a {
+    font-size: 13px;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+
+
+
+#nuhostcartcustom .tree-steps-hosting-plans-footer-btn .first-step-hosting-text small {
+    left: -6px;
+}
+
+#nuhostcartcustom .tree-steps-hosting-plans-footer-btn:hover .first-step-hosting-text small {
+    left: -120px;
+}
+#nuhostcartcustom .tree-steps-hosting-plans-footer-btn .first-step-hosting-text i {
+    right: -117px;
+}
+#nuhostcartcustom .tree-steps-hosting-plans-footer-btn:hover .first-step-hosting-text i {
+    right: -34px;
+}
+
+.panel-sidebar .panel-minimise {
+    float: left !important;
+}
+
+@media (min-width: 992px) {
+.pull-md-left {
+    float: left !important;
+}
+}
+
+.panel.panel-sidebar .panel-heading h3 {
+    font-size: 13px;
+}
+
+.panel.panel-sidebar .list-group-item {
+    font-weight: 100;
+    font-size: 13px;
+}
+
+#registration .prepend-icon .field {
+    padding-left: 0;
+    padding-right: 35px;
+}
+
+.intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container {
+    right: 0;
+    left: auto;
+}
+
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=tel], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=text] {
+    padding-left: 0;
+    padding-right: 80px;
+}
+.intl-tel-input.separate-dial-code .selected-dial-code {
+    padding-left: 0;
+    padding-right: 28px;
+}
+.intl-tel-input .selected-flag .iti-arrow {
+    left: 6px;
+    right: auto;
+}
+
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input[type=tel], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input[type=text] {
+    padding-right: 92px;
+	 padding-left: 0;
+}
+
+.intl-tel-input.separate-dial-code.iti-sdc-4 input, .intl-tel-input.separate-dial-code.iti-sdc-4 input[type=tel], .intl-tel-input.separate-dial-code.iti-sdc-4 input[type=text] {
+    padding-right: 82px;
+	 padding-left: 0;
+}
+
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-5 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-5 input[type=tel], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-5 input[type=text] {
+    padding-right: 100px;
+	padding-left: 0;
+}
+
+.intl-tel-input .selected-flag {
+    padding: 0 8px 0 0;
+}
+
+.box-intr .title {
+    font-family: 'Cairo', sans-serif !important;
+    letter-spacing: 0;
+}
+
+.client-home-panels .panel>.panel-heading .panel-title {
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.client-home-panels .panel>.panel-body p {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.tooltip{
+    font-family: 'tahoma', sans-serif !important;
+}
+
+div.header-lined .breadcrumb {
+    font-size: 12px;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+#order-standard_cart .prepend-icon .field {
+    padding-right: 36px !important;
+    padding-left: 0 !important;
+}
+
+#order-standard_cart .domain-selection-options .option .iradio_square-blue {
+    margin-right: 0  !important;
+    margin-left: 10px  !important;
+}
+
+div.header-lined h1 {
+    font-size: 19px;
+}
+
+.form-control {
+    padding: 2px 12px;
+}
+
+.server-place-section .col-md-6{
+    width: 50%;
+    float: right;
+}

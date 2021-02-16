@@ -1,0 +1,959 @@
+/*------------------------------------------------------------------
+ * template Name: Nuhost - Multipurpose Hosting HTML & WHMCS Template
+ * Author: coodiv (nedjai mohamed)
+ * Author URI: https://coodiv.net/
+ * Author URI: https://themeforest.net/user/coodiv
+ * Description: A Bootstrap Responsive Domain & Web Hosting Template + WHMCS template
+ * Version: 1.0.0
+ * Copyright 2018 coodiv.
+ -------------------------------------------------------------------*/
+ 
+
+div#order-premium_comparison {
+    padding:0 0 0 0;
+    margin:0 0 30px 0;
+    height: 100%;
+    width: 100%;
+    line-height:18px;
+    font-size:14px;
+    color:#666666;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: ===antialiased !important;
+}
+
+/* Text Styling */
+
+#order-premium_comparison a,
+#order-premium_comparison a:hover,
+#order-premium_comparison a:active,
+#order-premium_comparison a:visited,
+#order-premium_comparison a:link {
+    outline:none;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+}
+#order-premium_comparison div,
+#order-premium_comparison ul,
+#order-premium_comparison li {
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+}
+
+/* Headings */
+
+#order-premium_comparison h1 {
+}
+#order-premium_comparison h2 {
+}
+#order-premium_comparison h3 {
+    padding:0 0 0 0;
+    margin:0;
+    font-size:32px;
+    line-height:38px;
+    font-weight:bold;
+    color:#333333;
+}
+#order-premium_comparison h4 {
+    padding:0 0 0 0;
+    margin:10px 0;
+    font-size:24px;
+    color:#333333;
+}
+#order-premium_comparison h5 {
+    padding:0 0 0 0;
+    margin:5px 0;
+    font-size:16px;
+    color:#666666;
+}
+
+#order-premium_comparison .txt-center {
+    text-align:center;
+}
+
+#order-premium_comparison .alert {
+    margin-top: 70px;
+    padding: 15px;
+}
+
+#order-premium_comparison .main-container {
+    padding:0 2% 40px 2%;
+    margin:0 auto;
+}
+#order-premium_comparison .main-container.price-01 {
+    font-size:14px;
+    line-height:17px;
+}
+#order-premium_comparison .main-container.price-01 h3,
+#order-premium_comparison .main-container.price-01 h5 {
+    font-weight:normal;
+}
+
+#order-premium_comparison .price-table-container {
+    padding:10px 0 0 0;
+    margin:0 0 0 0;
+}
+#order-premium_comparison .price-table-container ul {
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+    list-style:none;
+    text-align:center;
+}
+#order-premium_comparison .price-table-container ul li {
+    padding:30px 10px 5px 10px;
+    margin:0 0 0 0;
+    display:inline-block;
+    background:url(../img/shadow-btm.png) no-repeat center bottom;
+}
+#order-premium_comparison .price-table-container .price-table {
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+    width: 270px;
+    min-width: 270px;
+    background:#ffffff;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -ms-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,0.30);
+    -moz-box-shadow: 0 0 2px 0 rgba(0,0,0,0.30);
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.30);
+}
+#order-premium_comparison .price-table-container .price-table.active {
+    margin:-30px 0 0 0;
+    width:245px;
+}
+#order-premium_comparison .price-table-container .price-table .top-head {
+    /* Old browsers */
+    background: #006699;
+    /* FF3.6+ */
+    background: -moz-linear-gradient(top,  #006699 0%, #004c66 100%);
+    /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#006699), color-stop(100%,#004c66));
+    /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(top,  #006699 0%,#004c66 100%);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top,  #006699 0%,#004c66 100%);
+    /* IE10+ */
+    background: -ms-linear-gradient(top,  #006699 0%,#004c66 100%);
+    /* W3C */
+    background: linear-gradient(to bottom,  #006699 0%,#004c66 100%);
+    /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#004c66',GradientType=0);
+    border-radius:5px 5px 0 0;
+    -moz-border-radius:5px 5px 0 0;
+    -webkit-border-radius:5px 5px 0 0;
+}
+#order-premium_comparison .price-table-container .price-table .top-head .top-area {
+    padding:15px 0;
+    margin:0 0 0 0;
+    border-bottom:1px solid #004662;
+    -webkit-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    -moz-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    -ms-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+#order-premium_comparison .price-table-container .price-table .top-head .top-area h4 {
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+    font-weight:normal;
+    color:#ffffff;
+    line-height:29px;
+}
+#order-premium_comparison .price-table-container .price-table .top-head .top-area p {
+    padding:5px 0 0 0;
+    margin:0 0 0 0;
+    color:#80a7ba;
+    font-size:13px;
+    line-height:20px;
+}
+#order-premium_comparison .price-table-container .price-table .top-head .price-area {
+    padding:15px 0;
+    margin:0 0 0 0;
+    border-top:1px solid #12688d;
+    -webkit-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    -moz-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    -ms-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    color:#ffffbf;
+    font-size:16px;
+}
+#order-premium_comparison .price-table-container .price-table .top-head .price-area .price {
+    padding:10px 0 10px 0;
+}
+#order-premium_comparison .price-table-container .price-table .top-head .price-area .price span {
+    font-size:38px;
+}
+#order-premium_comparison .price-table-container .order-button,
+#order-premium_comparison .price-table-container .order-button:hover {
+    padding:13px 0;
+    margin:10px 25px;
+    font-size:16px;
+    color:#ffffff;
+    display:block;
+    font-weight:normal;
+    /* Old browsers */
+    background: #4a92b7;
+    /* FF3.6+ */
+    background: -moz-linear-gradient(top,  #4a92b7 0%, #006699 100%);
+    /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4a92b7), color-stop(100%,#006699));
+    /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(top,  #4a92b7 0%,#006699 100%);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top,  #4a92b7 0%,#006699 100%);
+    /* IE10+ */
+    background: -ms-linear-gradient(top,  #4a92b7 0%,#006699 100%);
+    /* W3C */
+    background: linear-gradient(to bottom,  #4a92b7 0%,#006699 100%);
+    /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a92b7', endColorstr='#006699',GradientType=0);
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    border-radius:3px;
+    text-decoration:none;
+    -webkit-text-shadow: 0 0 1px rgba(0,0,0,0.4);
+    -moz-text-shadow: 0 0 1px rgba(0,0,0,0.4);
+    -ms-text-shadow: 0 0 1px rgba(0,0,0,0.4);
+    text-shadow: 0 0 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.40);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.40);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.40);
+}
+#order-premium_comparison .price-table-container .order-button.unavailable:hover {
+    cursor: not-allowed;
+    /* Old browsers */
+    background: #404A53;
+    /* FF3.6+ */
+    background: -moz-linear-gradient(top,  #404A53 0%, #949499 100%);
+    /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#404A53), color-stop(100%,#949499));
+    /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(top,  #404A53 0%,#949499 100%);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top,  #404A53 0%,#949499 100%);
+    /* IE10+ */
+    background: -ms-linear-gradient(top,  #404A53 0%,#949499 100%);
+    /* W3C */
+    background: linear-gradient(to bottom,  #404A53 0%,#949499 100%);
+    /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#404A53', endColorstr='#949499',GradientType=0);
+}
+#order-premium_comparison .price-table-container .price-table ul {
+    padding: 4px 10px 10px 10px;
+    margin:0 0 0 0;
+    list-style:none;
+}
+#order-premium_comparison .price-table-container .price-table ul li {
+    padding:17px 0 15px 0;
+    margin:0 0 0 0;
+    width:100%;
+    border-bottom:1px solid #d9d9d9;
+    color:#333333;
+    text-align:center;
+    line-height:16px;
+    font-size:14px;
+    background:none;
+}
+#order-premium_comparison .price-table-container .price-table ul li a {
+    color:#006699;
+}
+#order-premium_comparison .price-table-container .price-table ul li:last-child {
+    border-bottom:0;
+}
+#order-premium_comparison .price-table-container .price-table .popular-plan {
+    padding:7px 0 5px 0;
+    background:rgba(0,0,0,0.2);
+    border-bottom:1px solid #004662;
+    color:#a3d900;
+    font-size:13px;
+    text-transform:uppercase;
+}
+
+#order-premium_comparison .includes-features {
+	margin:0 auto;
+	width:100%;
+	max-width:780px;
+	padding-top:10px;
+}
+#order-premium_comparison .includes-features .head-area {
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+    text-align:center;
+    background:url(../img/head-bg.png) no-repeat center center;
+    background-size:100% auto;
+}
+#order-premium_comparison .includes-features .head-area span {
+    padding:0 20px;
+    margin:0 0 0 0;
+    display:inline-table;
+    background:#ffffff;
+}
+#order-premium_comparison .main-container.price-01 .includes-features .head-area span {
+    background:#f3f3f3;
+}
+#order-premium_comparison .includes-features ul.list-features {
+    padding:20px 0 0 0;
+    margin:0 0 0 0;
+    list-style:none;
+}
+#order-premium_comparison .includes-features ul.list-features li {
+    padding:0 0 0 22px;
+    margin:5px 0;
+    width:33%;
+    display:inline-table;
+    background:url(../img/tick.png) no-repeat;
+}
+
+/* This media query is written for iPad and tablets */
+@media (max-width: 991px) {
+    #order-premium_comparison .includes-features ul.list-features li {
+        width:48%;
+    }
+}
+
+/* This media query is written for Mobile only */
+@media (max-width: 600px) {
+    #order-premium_comparison .price-table-container .price-table {
+        margin:0 0 0 0;
+        width: 300px;
+    }
+    #order-premium_comparison .price-table-container .price-table.active {
+        margin:0 0 0 0;
+        width:300px;
+    }
+}
+
+/* This media query is written for Mobile only */
+@media (max-width: 480px) {
+    #order-premium_comparison .includes-features ul.list-features li {
+        width:100%;
+    }
+}
+
+/* Sidebar */
+
+html, body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+.row-product-selection {
+    position: relative;
+    left: 0;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+}
+
+.product-selection-sidebar {
+    position: absolute;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    display: none;
+}
+
+#btnShowSidebar {
+    margin: 0 0 20px 0;
+}
+
+
+
+.tree-steps-hosting-plans{
+    padding: 35px 30px;
+    background: #fff;
+    box-shadow: 0 10px 100px 0 rgba(77, 77, 119, 0.16);
+    border-radius: 10px;
+}
+
+.tree-steps-hosting-plans.first{
+    border-radius: 10px 0 0 10px;
+}
+
+
+.tree-steps-hosting-plans.second{
+    padding: 60px 30px;
+    margin-top: -25px;
+    z-index: 1;
+    position: relative;
+}
+
+.tree-steps-hosting-plans.third{
+    border-radius: 0 10px 10px 0
+}
+
+.tree-steps-hosting-plans-header{
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eaedef;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.tree-steps-hosting-plans-icon{
+    font-size: 24px;
+    color: #ffc107;
+    float: left;
+    margin-right: 14px;
+}
+
+
+.tree-steps-hosting-plans-title{
+    position: relative;
+    font-size: 26px;
+    color: #3b566e;
+    font-weight: 500;
+    line-height: 25px;
+    display: grid;
+}
+
+.tree-steps-hosting-plans-title small{
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    color: #919a9e;
+    margin-top: 2px;
+}
+
+.tree-steps-hosting-plans-price{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'Heebo', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.tree-steps-hosting-plans-price small{
+    display: block;
+    font-size: 13px;
+    margin-top: -8px;
+    color: #b1bcc1;
+    font-weight: 500;
+	text-align: center;
+}
+
+
+.tree-steps-hosting-plans-price.monthly .yearly{
+    display: none;
+}
+
+.tree-steps-hosting-plans-price.yearly .monthly{
+    display: none;
+}
+
+.tree-steps-hosting-plans-body{
+    padding: 10px 0 20px;
+    min-height: 350px;
+	position: relative;
+}
+
+.tree-steps-hosting-plans-list{
+	padding: 0;
+    width: 100%;
+}
+
+.tree-steps-hosting-plans-list li{
+    list-style: none;
+    font-weight: bold;
+    padding: 12px 0;
+    font-size: 13px;
+	position: relative;
+}
+
+.tree-steps-hosting-plans-list li.checked:after{
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+    content: "\f00c";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    color: #3e81c8;
+}
+
+.tree-steps-hosting-plans-list li.not-checked:after{
+font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+    content: "\f00d";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    color: #f1695f;
+}
+
+
+.tree-steps-hosting-plans-list li.not-checked{
+    text-decoration: line-through;
+}
+
+.tree-steps-hosting-plans-footer{
+    padding: 10px;
+    min-height: 66px;
+	position: relative;
+}
+
+.tree-steps-hosting-plans-footer-btn{
+    background: #3F51B5;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 36px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 0px 50px 0 rgba(14, 68, 93, 0.18);
+    text-decoration: none;
+    width: 150px;
+    display: inline-block;
+	overflow: hidden;
+	text-decoration: none !important;
+	cursor: pointer;
+	height: 39px;
+	position: relative;
+}
+
+.tree-steps-hosting-plans-footer-btn:hover{
+    background: #33418c;
+    color: #fff;
+	text-decoration: none !important;
+}
+
+.tree-steps-hosting-plans-footer-btn .first-step-hosting-text small{
+    position: relative;
+    color: #fff;
+    left: 6px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.tree-steps-hosting-plans-footer-btn:hover .first-step-hosting-text small{
+    left: -120px;
+	color: #fff;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.tree-steps-hosting-plans-footer-btn .first-step-hosting-text i{
+    right: -50px;
+	color: #fff;
+	position: relative;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.tree-steps-hosting-plans-footer-btn:hover .first-step-hosting-text i{
+    right: 40px;
+	color: #fff;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.tree-steps-hosting-plans-payment{
+    display: none;
+}
+
+.tree-steps-hosting-plans-payment-title{
+    position: relative;
+    font-size: 26px;
+    color: #3b566e;
+    font-weight: 500;
+    line-height: 25px;
+    display: grid;
+}
+
+.tree-steps-hosting-plans-payment-title small{
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    color: #919a9e;
+    margin-top: 4px;
+}
+
+.loader-tree-steps-hosting-plans-body{
+    position: absolute;
+    font-size: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    text-align: center;
+    top: 44%;
+    transform: translateY(-50%);
+    opacity: 0.3;
+	display: none;
+}
+
+.second-step-hosting-text{
+	display: none;
+	color: #fff;
+}
+
+.tree-steps-hosting-plans-footer-btn-back{
+    color: #8b969c;
+    border-radius: 36px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    overflow: hidden;
+    text-decoration: none !important;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 15px;
+    height: 19px;
+    width: 19px;
+    line-height: 39px;
+    opacity: 1;
+    text-align: center;
+	 z-index: 1;
+}
+
+.tree-steps-hosting-plans-footer-btn-back .first-stright {
+    width: 100%;
+    height: 2px;
+    background: #c0c6ca;
+    position: absolute;
+    border-radius: 10px;
+    -ms-transform: translateY(-50%) rotate(-45deg);
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    right: 0;
+}
+
+.tree-steps-hosting-plans-footer-btn-back .second-stright {
+    width: 100%;
+    height: 2px;
+    background: #c0c6ca;
+    position: absolute;
+    border-radius: 10px;
+    -ms-transform: translateY(-50%) rotate(-45deg);
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+    transform: translateY(-50%) rotate(-45deg);
+    top: 50%;
+    left: 0;
+}
+
+
+.tree-steps-hosting-plans-footer-btn-back:hover .first-stright {
+    background: #747c82;
+}
+
+.tree-steps-hosting-plans-footer-btn-back:hover  .second-stright {
+    background: #747c82;
+}
+
+
+.tree-steps-hosting-plans-login-form{
+	margin-top: 30px
+}
+
+.tree-steps-hosting-plans-login-form label{
+    position: relative;
+    font-size: 15px;
+    color: #3b566e;
+    font-weight: bold;
+}
+
+.tree-steps-hosting-plans-login-form input{
+    background: #efeff5 !important;
+    border: 0;
+    border-radius: 13px;
+    padding: .4rem .75rem;
+    font-size: 14px;
+}
+
+
+.tree-steps-hosting-plans.second .tree-steps-hosting-plans-icon {
+    color: #8BC34A;
+}
+
+.tree-steps-hosting-plans.third .tree-steps-hosting-plans-icon {
+    color: #F44336;
+}
+
+.tree-steps-hosting-plans-best{
+    background: #3e81c8;
+    position: absolute;
+    top: -8px;
+    width: 120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    padding: 3px;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.tree-steps-hosting-plans-error{
+    padding: 60px 0;
+	text-align: center
+}
+
+.tree-steps-hosting-plans-error i{
+    font-size: 70px;
+    color: #f14337;
+}
+
+.tree-steps-hosting-plans-error p{
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    color: #919a9e;
+    margin-top: 4px;
+}
+
+.with-enic-padding{
+    padding: 0 40px;
+    position: relative;
+}
+
+.with-enic-padding-twni{
+    padding: 0 20px;
+    position: relative;
+}
+
+.payment-method-form img {
+	height: 20px;
+}
+
+#monthly-yearly-chenge{
+    padding: 0 0 50px;
+}
+
+#monthly-yearly-chenge a{
+    font-weight: bold;
+    color: #b4c3ca;
+    text-decoration: none;
+	position: relative;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#monthly-yearly-chenge a.active{
+    color: #364248;
+}
+
+#monthly-yearly-chenge a:first-child{
+    padding-right: 30px;
+}
+
+#monthly-yearly-chenge a:last-child{
+    padding-left: 30px;
+}
+
+#monthly-yearly-chenge a:first-child::after{
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 44px;
+    background: #647181;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -24px;
+    border-radius: 40px;
+}
+
+#monthly-yearly-chenge a:last-child::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    width: 15px;
+    height: 15px;
+    left: -18px;
+    border-radius: 40px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+#monthly-yearly-chenge a:last-child.active::after{
+    left: 0;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.plan-contact-support-button{
+    padding: 0 0 50px;
+}
+
+.plan-contact-support-button a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #97a1a5;
+    background: #f0f2f3;
+    padding: 5px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.plan-contact-support-button a:hover{
+    background: #e8e9ea;
+    color: #97a1a5;
+    text-decoration: none;
+}
+
+.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-title small {
+    min-height: 17px;
+}
+
+.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-best {
+    width: max-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: lowercase;
+}
+
+.tree-steps-hosting-plans.cart-whmcs-custom-hosting-order.features-plan {
+    padding: 50px 30px;
+    margin-top: -25px;
+    z-index: 1;
+    position: relative;
+}
+
+.tree-steps-hosting-plans.cart-whmcs-custom-hosting-order {
+    margin-bottom: 40px;
+}
+
+.tree-steps-hosting-plans.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-price b {
+    display: block;
+    font-size: 13px;
+    color: #b1bcc1;
+    font-weight: 500;
+    text-align: center;
+}
+
+.tree-steps-hosting-plans.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-price b span{
+    display: block;
+    font-weight: 700;
+    color: #333;
+    font-size: 19px;
+    line-height: 20px;
+}
+
+.tree-steps-hosting-plans.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-price b small{
+    margin-top: 3px;
+}
+
+.palans-setup-free-styles{
+  text-align: center;
+}
+
+.palans-setup-free-styles small{
+  font-size: 13px;
+  display: block;
+  margin-top: 3px;
+  text-transform: lowercase;
+  color: #90a0a7;
+}
+
+.price-table-container .row:nth-child(1) .col-md-4:nth-child(1) .tree-steps-hosting-plans.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-icon {
+    color: #ffc107;
+}
+
+.price-table-container .row:nth-child(1) .col-md-4:nth-child(2) .tree-steps-hosting-plans.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-icon {
+    color: #8BC34A;
+}
+
+.price-table-container .row:nth-child(1) .col-md-4:nth-child(3) .tree-steps-hosting-plans.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-icon {
+    color: #F44336;
+}
+
+.price-table-container .row:nth-child(2) .col-md-4:nth-child(1) .tree-steps-hosting-plans.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-icon {
+    color: #03A9F4;
+}
+
+.price-table-container .row:nth-child(2) .col-md-4:nth-child(2) .tree-steps-hosting-plans.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-icon {
+    color: #9C27B0;
+}
+
+.price-table-container .row:nth-child(2) .col-md-4:nth-child(3) .tree-steps-hosting-plans.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-icon {
+    color: #CDDC39;
+}
+
+
+.price-table-container .row:nth-child(3) .col-md-4:nth-child(1) .tree-steps-hosting-plans.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-icon {
+    color: #ffc107;
+}
+
+.price-table-container .row:nth-child(3) .col-md-4:nth-child(2) .tree-steps-hosting-plans.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-icon {
+    color: #8BC34A;
+}
+
+.price-table-container .row:nth-child(3) .col-md-4:nth-child(3) .tree-steps-hosting-plans.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-icon {
+    color: #F44336;
+}
+
+.tittle-simple-cart-em h5 {
+  position: relative;
+  font-size: 30px;
+  color: #3b566e;
+  font-weight: 300;
+  line-height: 1.4em;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+
+.tittle-simple-cart-em h5 span {
+  position: relative;
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 300;
+  padding-top: 5px;
+  display: block;
+  color: #a0a9ad;
+}
+
+
+.order-button.unavailable.outofstock {
+  background: #F44336;
+  text-align: center;
+  padding: 5px 23px;
+  color: #fff;
+  border-radius: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+
+@media (max-width: 1200px) {
+.cart-whmcs-custom-hosting-order .tree-steps-hosting-plans-title {
+      font-size: 17px;
+  }
+}
