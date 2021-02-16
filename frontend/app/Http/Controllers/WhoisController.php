@@ -3,12 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Iodev\Whois\Factory;
-use Iodev\Whois\Modules\Tld\TldServer;
+use App\Http\Controllers\Factory;
 
-class HomePageController extends Controller
+class WhoisController extends Controller
 {
-    
     /**
      * Display a listing of the resource.
      *
@@ -16,7 +14,7 @@ class HomePageController extends Controller
      */
     public function index()
     {
-        
+        return view('Whois.index');
     }
 
     /**
@@ -48,7 +46,13 @@ class HomePageController extends Controller
      */
     public function show($id)
     {
-        //
+        $info = $whois->loadDomainInfo("$domain");
+        print_r([
+        'Domain created' => date("Y-m-d", $info->creationDate),
+        'Domain expires' => date("Y-m-d", $info->expirationDate),
+        'Domain owner' => $info->owner,
+
+        ]);
     }
 
     /**
@@ -84,5 +88,35 @@ class HomePageController extends Controller
     {
         //
     }
-   
+    public function get()
+    {
+        // Creating default configured client
+    $whois = WhoisController::get()->checkdomain();
+
+// Checking availability
+    if ($whois->isDomainAvailable("google.com")) {
+    print "Bingo! Domain is available! :)";
+    }
+
+            // Supports Unicode (converts to punycode)
+    if ($whois->isDomainAvailable("почта.рф")) {
+    print "Bingo! Domain is available! :)";
+    }
+
+
+    $response = $whois->lookupDomain("google.com");
+        print $response->text;
+
+// Getting parsed domain info
+    $info = $whois->loadDomainInfo("google.com");
+    print_r([
+    'Domain created' => date("Y-m-d", $info->creationDate),
+    'Domain expires' => date("Y-m-d", $info->expirationDate),
+    'Domain owner' => $info->owner,
+    ]);
+    }
+    public function createwhois()
+    {
+        return view('Whois.show');
+    }
 }

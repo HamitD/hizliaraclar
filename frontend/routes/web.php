@@ -17,4 +17,5 @@ Route::get('/', function () {
     return view('HomePage.index');
 });
 
-route::resource('HomePage', 'HomePageController');
+route::resource('Whois', 'WhoisController');
+route::post('Whois', 'WhoisController@get')->name('Whois.get');
