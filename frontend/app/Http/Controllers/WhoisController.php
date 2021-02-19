@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Factory;
+use Exler\Whois\Whois;
+use Iodev\Whois\Factory;
 
 class WhoisController extends Controller
 {
@@ -14,6 +15,7 @@ class WhoisController extends Controller
      */
     public function index()
     {
+        $users = \App\User::all();
         return view('Whois.index');
     }
 
@@ -46,13 +48,7 @@ class WhoisController extends Controller
      */
     public function show($id)
     {
-        $info = $whois->loadDomainInfo("$domain");
-        print_r([
-        'Domain created' => date("Y-m-d", $info->creationDate),
-        'Domain expires' => date("Y-m-d", $info->expirationDate),
-        'Domain owner' => $info->owner,
 
-        ]);
     }
 
     /**
@@ -88,35 +84,39 @@ class WhoisController extends Controller
     {
         //
     }
-    public function get()
+   
+    public function checkDomain(Request $request)
     {
-        // Creating default configured client
-    $whois = WhoisController::get()->checkdomain();
 
-// Checking availability
-    if ($whois->isDomainAvailable("google.com")) {
-    print "Bingo! Domain is available! :)";
-    }
-
-            // Supports Unicode (converts to punycode)
-    if ($whois->isDomainAvailable("почта.рф")) {
-    print "Bingo! Domain is available! :)";
-    }
-
-
-    $response = $whois->lookupDomain("google.com");
+        $whois = Factory::get()->createWhois($domainss);
+        
+        // Checking availability
+        if ($whois->isDomainAvailable($domainss)) {
+            print "Bingo! Domain is available! :)";
+        }
+        
+        // Supports Unicode (converts to punycode)
+        if ($whois->isDomainAvailable($domainss)) {
+            print "Bingo! Domain is available! :)";
+        }
+        
+        // Getting raw-text lookup
+        $response = $whois->lookupDomain($domainss);
         print $response->text;
+        
+        // Getting parsed domain info
+        $info = $whois->loadDomainInfo($domainss);
+        print_r([
+            'Domain created' => date("Y-m-d", $info->creationDate),
+            'Domain expires' => date("Y-m-d", $info->expirationDate),
+            'Domain owner' => $info->owner,
+        ]);
 
-// Getting parsed domain info
-    $info = $whois->loadDomainInfo("google.com");
-    print_r([
-    'Domain created' => date("Y-m-d", $info->creationDate),
-    'Domain expires' => date("Y-m-d", $info->expirationDate),
-    'Domain owner' => $info->owner,
-    ]);
+
     }
-    public function createwhois()
+    public function seedetails()
+    
     {
-        return view('Whois.show');
+        
     }
 }
