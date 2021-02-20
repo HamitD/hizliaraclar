@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('HomePage.index');
+    return view('Whois.index');
 });
 
 route::resource('Whois', 'WhoisController');
-route::post('Whois', 'WhoisController@get')->name('Whois.get');
+route::post('domainss', 'WhoisController@checkdomain')->name('Whois.checkdomain');

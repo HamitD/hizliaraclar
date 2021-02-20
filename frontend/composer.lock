@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4cf860742898fc91095388171f988bc",
+    "content-hash": "0f38d37bc0e88ab91bf3477b9f139b30",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -458,6 +458,50 @@
                 }
             ],
             "time": "2020-12-29T14:50:06+00:00"
+        },
+        {
+            "name": "exler/simple-php-whois",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/exler/simple-php-whois.git",
+                "reference": "34f851a98b8ba6439bb04c706200d10220e6a012"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/exler/simple-php-whois/zipball/34f851a98b8ba6439bb04c706200d10220e6a012",
+                "reference": "34f851a98b8ba6439bb04c706200d10220e6a012",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Exler\\": "src/Exler/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple PHP library for performing WHOIS lookups and viewing domain information",
+            "homepage": "https://github.com/exler/simple-php-whois",
+            "keywords": [
+                "domain",
+                "lookup",
+                "whois"
+            ],
+            "support": {
+                "issues": "https://github.com/exler/simple-php-whois/issues",
+                "source": "https://github.com/exler/simple-php-whois/tree/main"
+            },
+            "time": "2021-02-15T17:38:40+00:00"
         },
         {
             "name": "fideloper/proxy",
@@ -7681,7 +7725,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "exler/simple-php-whois": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

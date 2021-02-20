@@ -88,35 +88,19 @@ class WhoisController extends Controller
     public function checkDomain(Request $request)
     {
 
-        $whois = Factory::get()->createWhois($domainss);
+        $domainss = $request->input('domainss');
+        $whois = Factory::get()->createWhois();
         
-        // Checking availability
         if ($whois->isDomainAvailable($domainss)) {
-            print "Bingo! Domain is available! :)";
-        }
-        
-        // Supports Unicode (converts to punycode)
-        if ($whois->isDomainAvailable($domainss)) {
-            print "Bingo! Domain is available! :)";
-        }
-        
-        // Getting raw-text lookup
-        $response = $whois->lookupDomain($domainss);
-        print $response->text;
-        
-        // Getting parsed domain info
-        $info = $whois->loadDomainInfo($domainss);
-        print_r([
-            'Domain created' => date("Y-m-d", $info->creationDate),
-            'Domain expires' => date("Y-m-d", $info->expirationDate),
-            'Domain owner' => $info->owner,
-        ]);
 
+            
+        }
+        else{
+            return redirect::back();
+        }
+
+        return view('Whois.show');
 
     }
-    public function seedetails()
-    
-    {
-        
-    }
+
 }

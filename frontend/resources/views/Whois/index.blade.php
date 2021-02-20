@@ -8,9 +8,9 @@
 <div class="row justify-content-center">
 <div class="col-md-8">
 
-<form action="{{ route('Whois.get') }}" method="POST" id="domain-search" class="wow fadeIn" data-wow-delay="0.5s">
+<form action="{{ route('Whois.checkdomain') }}" method="post" id="domain-search" class="wow fadeIn" data-wow-delay="0.5s">
 @csrf
-<input type="text" id="domain-text" name="domain" placeholder="örn. ornekalanadi.com" autocapitalize="none" />
+<input type="text" id="domain-text" name="domainss" placeholder="örn. ornekalanadi.com" autocapitalize="none" />
 <span class="inline-button">
 <button id="search-btn" type="submit" name="submit" value="Ara"> <img src="templates/templates-nuhost/img/svgs/search.svg" alt="search icon" /></button>,
 
