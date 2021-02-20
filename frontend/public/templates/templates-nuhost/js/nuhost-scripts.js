@@ -179,7 +179,7 @@
 	// header text change//
 	$(function(){
 		$("#typed").typed({
-			strings: ["your company. ", "your website. ","your blog. ", "your apps. "],
+			strings: ["HızlıAraçlar ", "Test. ","Test ", "Test "],
 			typeSpeed: 90,
 			loop:true,
 		});

@@ -3,7 +3,7 @@
 </div>
 <div class="header-heeadline">
 <div class="outliner-middl-ha">
-<h5><span class="blok-on-phon"> perfect domain name for </span> <span id="typed"></span></h5>
+<h5><span class="blok-on-phon"> Yeni Bir Alan Adı Sorgulayın</span> <span id="typed"></span></h5>
 <p> Cheapest prices in the market, Secure, And the best support team</p>
 <div class="row justify-content-center">
 <div class="col-md-8">

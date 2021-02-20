@@ -89,17 +89,28 @@ class WhoisController extends Controller
     {
 
         $domainss = $request->input('domainss');
-        $whois = Factory::get()->createWhois();
-        
-        if ($whois->isDomainAvailable($domainss)) {
-
-            
+        try {
+            $whois = Factory::get()->createWhois();
+            $info = $whois->loadDomainInfo($domainss);
+            if (!$info) {
+                print "Null if domain available";
+                exit;
+                
+            }
+            print $info->domainName ."<br>"." Create at: " . date("d.m.Y H:i:s", $info->creationDate);
+            print $info->whois . "<br>"." Expires at: " . date("d.m.Y H:i:s", $info->expirationDate);
+            print  $info->domainName."<br>"."&nbsp;"."Kayıt Operatörü:"."&nbsp;". $info->GetNameServers;
+        } catch (ConnectionException $e) {
+            print "Disconnect or connection timeout";
+        } catch (ServerMismatchException $e) {
+            print "TLD server (.com for google.com) not found in current server hosts";
+        } catch (WhoisException $e) {
+            print "Whois server responded with error '{$e->getMessage()}'";
         }
-        else{
-            return redirect::back();
-        }
+ 
 
-        return view('Whois.show');
+
+
 
     }
 
